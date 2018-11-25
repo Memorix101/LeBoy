@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace LeBoy
 {
@@ -13,8 +14,12 @@ namespace LeBoy
         [STAThread]
         static void Main()
         {
-            using (var game = new LeBoyGame())
-                game.Run();
+            /*using (var game = new LeBoyGame())
+                game.Run();*/
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
         }
     }
 }
