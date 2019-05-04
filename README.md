@@ -2,6 +2,9 @@ LeBoy
 ===================
 **Disclaimer:** GAME BOY is a trademark of Nintendo Co., Ltd.
 
+![](https://user-images.githubusercontent.com/1466920/57185839-a4969e80-6ed3-11e9-9436-b14c2e14198c.png)
+
+
 LeBoy is a GB emulator written in C# and using MonoGame as a graphical and sound output. It is designed to be cross-platform (currently supporting Windows, MacOS, and Linux, but should already run as-is on iOS, Android, and consoles). The core emulation library (*LeBoyLib*) is a separated pure C# project that can easily be embedded into any kind of C# project.
 
 LeBoy is not meant for accuracy and speed, it is a pet project which initially started for educational purposes.
